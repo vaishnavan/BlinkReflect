@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(104, 85, 104);
+}
+.dot{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20px;
+    height: 20px;
+    background:greenyellow;
+    border-radius: 50%;
+    box-shadow: 0 0 20px greenyellow,
+                0 0 40px greenyellow,
+                0 0 60px greenyellow,
+                0 0 80px greenyellow;
+    transition: 1s;
+}
+.dot:hover{
+    box-shadow: 0 0 0 30px rgba(122, 153, 76, 0.1),
+                0 0 0 60px rgba(116, 145, 72, 0.1),
+                0 0 0 120px rgba(191, 219, 149,.1),
+                0 0 0 240px rgba(122, 150, 81, 0.1),
+                0 0 0 480px rgba(104, 131, 68, 0.1),
+                0 0 0 9600px rgba(109, 134, 71, 0.1);
+}
